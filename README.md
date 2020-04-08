@@ -116,12 +116,12 @@ END holiday_import;
 </code></pre>
 
 ### 5. 두 프로젝트 간에 세션 공유 방법   
-server에 있는 context.xml파일 수정(crossContext="true" 추가하기)             
+server에 있는 context.xml파일 수정(crossContext="true" 추가하기)
 <Context>  =====>>>>>  <Context crossContext="true">   
 
 server.xml파일 수정(emptySessionPath="true" 추가하기)        
 <Connector connectionTimeout="20000" port="8090" protocol="HTTP/1.1" redirectPort="8443"/>       
-=========>>>>>>>>>         
+=======>>>>>>>>>         
 <Connector connectionTimeout="20000" port="8090" protocol="HTTP/1.1" redirectPort="8443" emptySessionPath="true"/>             
 
 
