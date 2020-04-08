@@ -130,7 +130,7 @@ Connector connectionTimeout="20000" port="8090" protocol="HTTP/1.1" redirectPort
 
 세션 세팅
 <pre><code>
-request.getSession().getServletContext().setAttribute("nid", nid);	//loginOkCommand에 설정 해 뒀습니다.    
+request.getSession().getServletContext().setAttribute("nid", nid);    
 </code></pre>
 
 세션 GET
