@@ -1,6 +1,8 @@
 # YouShoes
 예담직업전문학교 프로젝트 수제화쇼핑몰
 
+
+
 # 팀원 : 구교동, 유승우, 권우성, 배광준
 
 유승우 - 프로필, 결제, 통계, 즐겨찾기, 공지사항 
@@ -12,8 +14,13 @@
 배광준 - 로그인, 판매회원 관리, 구매자 메인 홈
 
 
+
+
 # 개발 언어
 HTML, CSS, JavaScript, BootStrap, jQuery, Ajax, Oracle -> MySQL , Tomcat 8.5
+
+
+
 
 # 사용 API
 달력 API - FullCalendar
